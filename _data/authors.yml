@@ -8,7 +8,7 @@
 frc1108: # replace this with your info
   name: "frc1108"
   siterole: "webmaster, developer, copywriter, designer"
-  uri: http://frc1108.github.io/
-  email:
+  uri: "http://frc1108.github.io/"
+  email: "pantherrobotics1108@gmail.com"
   twitter: "@FIRST_Team_1108"
 # you can add more authors here

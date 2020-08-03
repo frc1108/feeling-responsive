@@ -1,49 +1,24 @@
-- name: GitHub
-  url: http://github.com/frc1108
-  class: icon-github
-  title: Code for scouting, robots, and web
+- name: Facebook
+  url: http://www.facebook.com/130742220315492
+  class: icon-facebook
+  title: "Facebook for 1108"
 
-- name: YouTube
-  url: https://www.youtube.com/playlist?list=PLvlLIOzcVotLjK1KGNYGkvgkoEjoszpI2
-  class: icon-youtube
-  title: "Videos competitive "
+- name: Instagram
+  url: http://instagram.com/pantherrobotics1108/
+  class: icon-instagram
+  title: "Instagram for 1108"
 
 - name: Twitter
   url: http://twitter.com/FIRST_Team_1108
   class: icon-twitter
-  title: "Panther Robotics tweets"
+  title: "Twitter for 1108"
 
-# - name: Mixcloud
-#  url: http://www.mixcloud.com/phlow/
-#  class: icon-cloud
-#  title: "Mixe, was sonst?"
+- name: YouTube
+  url: https://www.youtube.com/playlist?list=PLvlLIOzcVotLjK1KGNYGkvgkoEjoszpI2
+  class: icon-youtube
+  title: "YouTube for 1108"
 
-# - name: Phlow YouTube Google+
-# url: https://plus.google.com/u/0/+Phlow
-#  class: icon-googleplus
-#  title: "YouTube Google+"
-
-- name: Facebook
-  url: http://www.facebook.com/130742220315492
-  class: icon-facebook
-  title: "Most recent team information"
-
-# - name: Soundcloud
-#   url: http://soundcloud.com/
-#   class: icon-soundcloud
-#   title: ""
-
-# - name: Instagram
-#   url: http://instagram.com/
-#   class: icon-instagram
-#   title: ""
-
-# - name: Pinterest
-#   url: http://www.pinterest.com/
-#   class: icon-pinterest
-#   title: ""
-
-# - name: Xing
-#   url: https://www.xing.com/profile/
-#   class: icon-xing
-#   title: Xing Profil
+- name: GitHub
+  url: http://github.com/frc1108
+  class: icon-github
+  title: "GitHub for 1108"
