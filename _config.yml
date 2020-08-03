@@ -44,8 +44,8 @@ urlimg: 'https://frc1108.github.io/frc1108_website/images/'
 # Logo size is 600x80 pixels
 logo: "logo.png"
 
-# Gems
-gems:
+# Plugins
+plugins:
     - jekyll-asciidoc
     - jekyll-gist
     - jekyll-paginate
@@ -63,11 +63,11 @@ paginate_path: "blog/page:num"   # Pagination path › Important for blog page i
 
 
 # Theme works best with Kramdown (using the table of contents function)
-markdown: kramdown
-permalink: /:categories/:title/
-highlight: rouge
-excerpt_separator: "<!--more-->"
-include: ['.htaccess']
+markdown           : kramdown
+permalink          : /:categories/:title/
+highlight          : rouge
+excerpt_separator  : "<!--more-->"
+include            : ['.htaccess']
 # Exclude these files from your production _site
 exclude:
     - .sass-cache
@@ -76,6 +76,7 @@ exclude:
     - LICENSE
     - README.md
     - INSTALL.md
+    - vendor
 
 
 # The language setting is used in /includes/header.html for html-settings
@@ -145,7 +146,8 @@ defaults:
 google_author:             'https://plus.google.com/u/0/118311555303973066167'
 google_site_verification:  'Vk0IOJ2jwG_qEoG7fuEXYqv0m2rLa8P778Fi_GrsgEQ'
 bing_webmastertools_id:    '0FB4C028ABCF07C908C54386ABD2D97F'
-# alexa_verify_id:         ''
+# yandex_site_verification:  ''
+# alexa_verify_id:           ''
 
 
 
@@ -215,8 +217,8 @@ disqus_shortname: feelingresponsive
 #
 
 sass:
-    sass_dir: _sass
-    style: :compressed
+    sass_dir : _sass
+    style    : :compressed
 
 
 #       ___                __      __  _
@@ -228,7 +230,7 @@ sass:
 #
 # used in _includes/footer_scripts
 
-google_analytics_tracking_id: UA-60112281-1
+# google_analytics_tracking_id:
 
 
 
@@ -264,7 +266,7 @@ google_analytics_tracking_id: UA-60112281-1
 
 asciidoctor-enabled: false
 asciidoctor:
-  description: testtewtetrue
+  description: 
   attributes:
     source-highlighter: coderay
     coderay-css: style
